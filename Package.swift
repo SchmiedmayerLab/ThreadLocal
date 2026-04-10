@@ -14,13 +14,17 @@ let package = Package(
     name: "ThreadLocal",
     platforms: [
         .macOS(.v14),
-        .iOS(.v17)
+        .iOS(.v17),
+        .macCatalyst(.v17),
+        .watchOS(.v10),
+        .visionOS(.v1),
+        .tvOS(.v17)
     ],
     products: [
         .library(name: "ThreadLocal", targets: ["ThreadLocal"])
     ],
     dependencies: [
-        .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "602.0.0")
+        .package(url: "https://github.com/swiftlang/swift-syntax.git", "601.0.0"..<"604.0.0")
     ],
     targets: [
         .macro(
