@@ -34,7 +34,7 @@ When the thread is destroyed, the variable's lifetime is ended.
 
 You can use non-trivial types with thread-local variables, and can provide a custom deallocator if needed (see ``ThreadLocal(deallocator:)``).
 
-See [the documentation](https://swiftpackageindex.com/StanfordBDHG/ThreadLocal) for more info.
+See [the documentation](https://swiftpackageindex.com/SchmiedmayerLab/ThreadLocal) for more info.
 
 
 ## Installation
@@ -47,7 +47,7 @@ The project can be added to your Xcode project or Swift Package using the [Swift
 
 
 ## License
-This project is licensed under the MIT License. See [Licenses](https://github.com/StanfordBDHG/ThreadLocal/tree/main/LICENSES) for more information.
+This project is licensed under the MIT License. See [Licenses](https://github.com/SchmiedmayerLab/ThreadLocal/tree/main/LICENSES) for more information.
 
 
 ## Our Research
