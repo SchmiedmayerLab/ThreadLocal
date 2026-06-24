@@ -30,3 +30,7 @@ jobs:
     with:
       linux_run_tests: true
     secrets: inherit
+    permissions:
+      contents: read
+      actions: read
+      issues: write
