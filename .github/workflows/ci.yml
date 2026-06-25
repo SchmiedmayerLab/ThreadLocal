@@ -29,7 +29,6 @@ jobs:
     uses: SchmiedmayerLab/.github/.github/workflows/swift-package-ci.yml@v0.2
     with:
       linux_run_tests: true
-      linux_runners: '["ubuntu-latest"]'
     secrets: inherit
     permissions:
       contents: read
